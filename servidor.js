@@ -33,3 +33,8 @@ app.get('/hora', (req, res) => {
     res.send(`<h1  style=" color: red"> hora actual ${moment().format('HH:mm:ss')}</h1>`)
 })
 
+
+app.get('/contacto', (req, res) => {
+    res.send(`<h1  style=" color: red"> esta es la página de conatcto!</h1>`)
+})
+
