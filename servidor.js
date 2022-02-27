@@ -20,7 +20,16 @@ app.get('/visitas', (req, res) => {
     res.send(`<h1>la candidad de vistas es ${visitas}</h1>`)
 })
 
+app.get('/fecha', (req, res) => {
+    res.send(`<h1  style=" color: green">Hoy es ${moment().format('DD/MM/YYYY')}</h1>`)
+})
+
+
 app.get('/fyh', (req, res) => {
     res.send({fyh: moment().format('YYYY-MM-DD HH:mm:ss')})
+})
+
+app.get('/hora', (req, res) => {
+    res.send(`<h1  style=" color: red"> hora actual ${moment().format('HH:mm:ss')}</h1>`)
 })
 

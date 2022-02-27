@@ -1,1 +1,1 @@
-# helloExpress primer proyecto en node, preparando para subir a Glitch
+# primer proyecto en node utilizando módulo express como servidor
